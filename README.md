@@ -9,7 +9,7 @@ A file conversion tool counting words and characters, displaying content, and ex
 - Upload documents (PDF, DOCX, TXT)
 - Display file content in the browser
 - Count words and characters
-- Convert between formats (PDF ↔ DOCX, DOCX ↔ TXT, etc.)
+- Convert between formats (PDF ↔ DOCX, DOCX ↔ PDF)
 - Export processed files
 
 ---
@@ -28,7 +28,7 @@ A file conversion tool counting words and characters, displaying content, and ex
 ## Folder Structure
 
 ```bash
-file-converter/
+pdf-word-converter/
 ├── frontend/ # React + Tailwind app
 ├── backend/ # Flask API
 ├── README.md
