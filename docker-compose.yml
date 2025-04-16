@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    build: ./backend  # Path to backend Dockerfile
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./frontend  # Path to frontend Dockerfile
+    ports:
+      - "3000:3000"
