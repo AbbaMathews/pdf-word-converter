@@ -72,6 +72,7 @@ The frontend will run by default on ```http://localhost:5000```.
 ```bash
 docker compose up --build
 ```
+Now frontend will run on ```http://localhost:3000```. And backend on ```http://localhost:5000```.
 
 ---
 
