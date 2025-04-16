@@ -70,7 +70,7 @@ The frontend will run by default on ```http://localhost:5000```.
 ### Docker Setup
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 ---
